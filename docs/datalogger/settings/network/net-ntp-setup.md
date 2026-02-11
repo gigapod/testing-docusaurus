@@ -21,7 +21,7 @@ The NTP configuration has the following settings:
 |**NTP Server One**|The primary NTP Server to use. Default value is: **pool.ntp.org***|
 |**NTP Server Two**|The secondary NTP Server to use. Default value is: **time.nist.gov**|
 
-:::Lnote
+:::note
 
 Only one NTP service is required to use this option, but it's common to provice two for redundancy.
 
