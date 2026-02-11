@@ -1,5 +1,5 @@
 ---
-slug: /testing-docusaurus/
+slug: /testing-docusaurus
 ---
 # Introduction
 
