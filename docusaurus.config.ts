@@ -15,7 +15,7 @@ const config: Config = {
     },
 
     // Set the production url of your site here
-    url: 'https://docs.sparkfun.com/SparkFun_DataLogger/',
+    url: 'https://docs.sparkfun.com/',
     // Set the /<baseUrl>/ pathname under which your site is served
     // For GitHub pages deployment, it is often '/<projectName>/'
     baseUrl: '/',
@@ -46,21 +46,7 @@ const config: Config = {
                     editUrl:
                         'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                 },
-                blog: {
-                    showReadingTime: true,
-                    feedOptions: {
-                        type: ['rss', 'atom'],
-                        xslt: true,
-                    },
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                    // Useful options to enforce blogging best practices
-                    onInlineTags: 'warn',
-                    onInlineAuthors: 'warn',
-                    onUntruncatedBlogPosts: 'warn',
-                },
+                blog: false,
                 theme: {
                     customCss: './src/css/custom.css',
                 },
@@ -101,8 +87,8 @@ const config: Config = {
                     title: 'Docs',
                     items: [
                         {
-                            label: 'Tutorial',
-                            to: '/docs/intro',
+                            label: 'Documentation',
+                            to: '/docs/datalogger/introduction',
                         },
                     ],
                 },
@@ -110,16 +96,16 @@ const config: Config = {
                     title: 'Community',
                     items: [
                         {
-                            label: 'Stack Overflow',
-                            href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                            label: 'GitHub',
+                            href: 'https://github.com/sparkfun/SparkFun_DataLogger',
                         },
                         {
-                            label: 'Discord',
-                            href: 'https://discordapp.com/invite/docusaurus',
+                            label: 'YouTube',
+                            href: 'https://www.youtube.com/sparkfun',
                         },
                         {
                             label: 'X',
-                            href: 'https://x.com/docusaurus',
+                            href: 'https://x.com/sparkfun',
                         },
                     ],
                 },
@@ -127,12 +113,12 @@ const config: Config = {
                     title: 'More',
                     items: [
                         {
-                            label: 'Blog',
-                            to: '/blog',
+                            label: 'Community Forum',
+                            href: 'https://community.sparkfun.com/',
                         },
                         {
-                            label: 'GitHub',
-                            href: 'https://github.com/facebook/docusaurus',
+                            label: 'SparkFun.com',
+                            href: 'https://www.sparkfun.com/',
                         },
                     ],
                 },
