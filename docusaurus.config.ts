@@ -83,11 +83,15 @@ const config: Config = {
             style: 'dark',
             links: [
                 {
-                    title: 'Docs',
+                    title: 'DataLogger IoT Boards',
                     items: [
                         {
-                            label: 'Documentation',
-                            to: '/',
+                            label: 'DataLoggerIoT',
+                            href: 'https://www.sparkfun.com/sparkfun-datalogger-iot.html'
+                        },
+                        {
+                            label: 'DataLoggerIoT 9DoF',
+                            href: 'https://www.sparkfun.com/sparkfun-datalogger-iot-9dof.html'
                         },
                     ],
                 },
