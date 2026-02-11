@@ -55,7 +55,3 @@
 html[data-theme='dark'] footer {
   background-color: black;
 }
-
-html[data-theme='light'] footer {
-  background-color: #447079;
-}
