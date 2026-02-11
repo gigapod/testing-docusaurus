@@ -37,6 +37,7 @@ const sidebars: SidebarsConfig = {
         'datalogger/introduction',
         'datalogger/hardware_overview',
         'datalogger/hardware_hookup',
+        'datalogger/system-operation',
         {
             type: 'category',
             label: 'Settings',
@@ -48,8 +49,8 @@ const sidebars: SidebarsConfig = {
                 {
                     type: 'category',
                     label: 'General',
-                    link:{
-                        type:'generated-index'
+                    link: {
+                        type: 'generated-index'
                     },
                     collapsed: false,
                     items: [
@@ -70,20 +71,71 @@ const sidebars: SidebarsConfig = {
                         'datalogger/settings/network/net-ntp-setup'
                     ]
                 },
-        {
-            type: 'category',
-            label: 'Logging',
-            link: {
-                type: 'generated-index'
-            },
-            collapsed: false,
-            items: [
-                'datalogger/settings/logging/log-settings-logger',
-                'datalogger/settings/logging/log-settings-timer',
-                'datalogger/settings/logging/log-settings-file',
-                'datalogger/settings/logging/log-settings-interrupt',
-            ]
-        }
+                {
+                    type: 'category',
+                    label: 'Logging',
+                    link: {
+                        type: 'generated-index'
+                    },
+                    collapsed: false,
+                    items: [
+                        'datalogger/settings/logging/log-settings-logger',
+                        'datalogger/settings/logging/log-settings-timer',
+                        'datalogger/settings/logging/log-settings-file',
+                        'datalogger/settings/logging/log-settings-interrupt',
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'GPIO Devices',
+                    link: {
+                        type: 'generated-index'
+                    },
+                    collapsed: false,
+                    items: [
+                        'datalogger/settings/gpio-devices/gpio-extern-serial',
+                        'datalogger/settings/gpio-devices/gpio-soil-moisture',
+                        'datalogger/settings/gpio-devices/gpio-analog-pin-sensor'
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Services',
+                    link: {
+                        type: 'generated-index'
+                    },
+                    collapsed: false,
+                    items: [
+                        {
+                            type: 'category',
+                            label: 'IoT Services',
+                            link: {
+                                type: 'generated-index'
+                            },
+                            collapsed: false,
+                            items: [
+                                'datalogger/settings/services/iot-services/iot_mqtt',
+                                'datalogger/settings/services/iot-services/iot_aws',
+                                'datalogger/settings/services/iot-services/iot_thingspeak',
+                                'datalogger/settings/services/iot-services/iot_azure',
+                                'datalogger/settings/services/iot-services/iot_http',
+                                'datalogger/settings/services/iot-services/iot_arduino_iot_cloud'
+                            ]
+                        },
+                        "datalogger/settings/services/iot_web_server"
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Advanced',
+                    link: {
+                        type: 'generated-index'
+                    },
+                    collapsed: false,
+                    items: [
+                        'datalogger/settings/advanced/adv-system-update'
+                    ]
+                }
             ]
         },
         {
