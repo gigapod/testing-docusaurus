@@ -41,8 +41,7 @@ const sidebars: SidebarsConfig = {
             type: 'category',
             label: 'Settings',
             link: {
-                type: 'doc',
-                id: 'datalogger/settings/general/gen-app-set'
+                type: 'generated-index'
             },
             collapsed: false,
             items: [
@@ -50,14 +49,25 @@ const sidebars: SidebarsConfig = {
                     type: 'category',
                     label: 'General',
                     link:{
-                        type:'doc',
-                        id: 'datalogger/settings/general/gen-app-set'
+                        type:'generated-index'
                     },
                     collapsed: false,
                     items: [
                         'datalogger/settings/general/gen-app-set',
                         'datalogger/settings/general/gen-time-setup',
                         'datalogger/settings/general/gen-save-settings'
+                    ]
+                },
+                {
+                    type: 'category',
+                    label: 'Network',
+                    link: {
+                        type: 'generated-index'
+                    },
+                    collapsed: false,
+                    items: [
+                        'datalogger/settings/network/net-wifi-setup',
+                        'datalogger/settings/network/net-ntp-setup'
                     ]
                 }
             ]
@@ -66,8 +76,7 @@ const sidebars: SidebarsConfig = {
             type: 'category',
             label: 'Resources',
             link: {
-                type: 'doc',
-                id: 'datalogger/resources/supported_devices'
+                type: 'generated-index'
             },
             collapsed: false,
             items: [
