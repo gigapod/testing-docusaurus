@@ -155,7 +155,7 @@ const sidebars: SidebarsConfig = {
             link: {
                 type: 'generated-index'
             },
-            collapsed: false,
+            collapsed: true,
             items: [
                 'datalogger/resources/prepare_your_microsd_card',
                 'datalogger/resources/ref-serial-terms',
@@ -171,7 +171,7 @@ const sidebars: SidebarsConfig = {
             link: {
                 type: 'generated-index'
             },
-            collapsed: false,
+            collapsed: true,
             items: [
                 'datalogger/support/troubleshooting',
                 'datalogger/support/file_issue',
