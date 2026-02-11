@@ -140,7 +140,7 @@ The alternative to using the menu system is a JSON file. These values can be set
 
 You will need to update the `API Client ID`, `API Secret`, `Device Secret`, and `Device ID` with the values that were obtained earlier. Don't forget to enable Arduino Cloud service by setting the value to `true`. If the JSON file is saved in the microSD card, you will need to load the credentials to the DataLogger IoT.
 
-> *TIP* To load the values by the system at startup using a JSON file and microSD card, you will need to [configure the Save Settings](../configuration#general-save-settings). This JSON file will be created with the "**Save to Fallback**" option. Make sure to enable the Arduino IoT as well.
+> *TIP* To load the values by the system at startup using a JSON file and microSD card, you will need to [configure the Save Settings](datalogger/settings/general/gen-save-settings.md). This JSON file will be created with the "**Save to Fallback**" option. Make sure to enable the Arduino IoT as well.
 
 ## Operation
 

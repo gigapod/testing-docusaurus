@@ -72,4 +72,4 @@ Straight out of the ~~box~~ anti-static bag, the DataLogger IoT 9DoFis ready to 
 
 The DataLogger IoT is preprogrammed to automatically log data from all of the following sensors, so you may wish to add one or more of these to your shopping cart too. (More sensors are being added all the time and it is really easy to upgrade the DataLogger IoT to support them. But we'll get to that in a moment!). Currently, auto-detection is supported on the following Qwiic-enabled products (with the exception of the ISM330DHCX and MMC5983 which is built-in on the 9DoF variant):
 
-For a list of supported devices based on the firmware, you can check out the [list of supported Qwiic Devices in the appendix](../supported_devices)
+For a list of supported devices based on the firmware, you can check out the [list of supported Qwiic Devices in the appendix](resources/supported_devices)
