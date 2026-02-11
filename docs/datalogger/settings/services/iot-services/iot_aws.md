@@ -140,8 +140,11 @@ Selecting the ***Classic Shadow*** entry provides the Server Name/Hostname for t
 
 ![Shadow Details](/img/iot_aws_iot_shadow_details.png)
 
-!!! note
-    The server name is obtained from the Device Shadow URL entry
+:::note
+
+The server name is obtained from the Device Shadow URL entry
+
+:::
 
 ### MQTT Topic
 

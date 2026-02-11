@@ -140,6 +140,17 @@ const sidebars: SidebarsConfig = {
         },
         {
             type: 'category',
+            label: 'Device Settings',
+            link: {
+                type: 'generated-index'
+            },
+            collapsed: false,
+            items: [
+                'datalogger/device-settings/gnss-pps-log'
+            ]
+        },
+        {
+            type: 'category',
             label: 'Resources',
             link: {
                 type: 'generated-index'

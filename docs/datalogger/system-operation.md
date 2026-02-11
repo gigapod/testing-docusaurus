@@ -19,10 +19,11 @@ When connected to a Serial Terminal, the displayed output has the following sequ
 
 Connect the DataLogger IoT to a USB cable and connect to your computer. The addressable RGB LED will light up green as it initializes. In the Serial Terminal,  a *Startup Menu* is presented, which allows you to change the behavior of the DataLogger at start-up. This change only affects the current system session.
 
+<figure>
 ![Output when DataLogger IoT - 9DoF Start-up menu](/img/sfe-datalogger-startup-menu.png)
-/// caption
+<figcaption>
 Startup Menu Options
-///
+</figcaption></figure>
 
 * 'n' - Normal startup
 * 'a' - Disable I2C device auto load on startup
@@ -36,10 +37,11 @@ The amount of time the start-up menu is displayed is adjustable. This settings c
 
 As the system starts up you will see the following output when the board initializes:
 
+<figure>
 ![Output when DataLogger IoT - 9DoF is initializing](/img/sfe-datalogger-startup-about.png)
-/// caption
+<figcaption>
 Startup Output Information
-///
+</figcaption></figure>
 
 The messages in the serial terminal provide us with the DataLogger's configuration and will vary depending on the firmware version that is loaded on the board and the boards configuration settings.
 
@@ -66,26 +68,29 @@ In general, the output will include the following:
 
 As of firmware v01.02.00, there is also a compact mode! By adjusting the setting, the datalogger will output less at startup. This settings can be configured in the **Settings/Application Settings** page, under the Advanced section.
 
+<figure>
 ![Output when DataLogger IoT - 9DoF is initializing, compact](/img/sfe-datalogger-compact-startup.png)
-/// caption
+<figcaption>
 Compact Startup Mode Output
-///
+</figcaption></figure>
 
 ## Logging Output
 
 Once the DataLogger IoT has initialized, the DataLogger IoT will begin outputting comma separated values (CSV). This is the default output that is set for the DataLogger IoT - 9DoF. Of course, you will not have as many readings on the DataLogger IoT since the 6DoF IMU and magnetometer are not populated on that version of the board.
 
+<figure>
 ![CSV Output on the DataLogger IoT - 9DoF v01.02.00](/img/sfe-datalogger-csv-output.png)
-/// caption
+<figcaption>
 CSV Output to the Serial Console
-///
+</figcaption></figure>
 
 Depending on your DataLogger IoT preferences, your device may output as a JSON format like the image shown below.
 
+<figure>
 ![JSON Output on the DataLogger -IoT - 9DoF](/img/sfe-datalogger-json-output.png)
-/// caption
+<figcaption>
 JSON Output to the Serial Console
-///
+</figcaption></figure>
 
 The data scrolling up the screen show what each device's output is along with their associated unit if it is available. Your mileage will vary depending on the board version that you have and what device is connected:
 
@@ -110,10 +115,10 @@ The output will vary depending on what is connected so you may get additional re
 
 Right! Let's open the main menu by pressing on any key in the serial terminal program.
 
+<figure>
 ![DataLogger IoT Main Menu](/img/sfe-datalogger-main-menu.png)
-///
-Main Menu
-///
+<figcaption>Main Menu</figcaption>
+</figure>
 
 You will be prompted with a few options. Once in the configuration menu, all three colors of the addressable RGB LED will turn on to produce the color white indicating that you are navigating through the menu.
 
@@ -121,13 +126,15 @@ You will be prompted with a few options. Once in the configuration menu, all thr
 
 Menus items are entered by pressing the number next to the menu item desired. For example, at the main menu, pressing `1` will bring up the overall Settings Menu. You will have the option to adjust various settings ranging from the your preferences, time source to synchronize the date and time, WiFi network, how the device logs data, which IoT service to use, and firmware updates.
 
+<figure>
 ![settings menu options](/img/sfe-datalogger-settings-menu.png)
-/// caption
-The Settings Menu
-///
+<figcaption>The Settings Menu</figcaption>
+</figure>
 
-!!! note
-    You may notice after entering a ```1``` with long menus there is a slight delay before the system responds. The delay was added to allow some time for an additional digit for any option greater than 9. If you want to head to option 1 immediately without the slight delay, you can hit the ```Enter``` key.
+:::note
+You may notice after entering a ```1``` with long menus there is a slight delay before the system responds. The delay was added to allow some time for an additional digit for any option greater than 9. If you want to head to option 1 immediately without the slight delay, you can hit the ```Enter``` key.
+
+:::
 
 Hitting the `ESC` returns to the previous menu. From here you can enter a `2` which brings up the Device menu - which lists all devices currently connected to the datalogger
 
@@ -135,28 +142,31 @@ Hitting the `ESC` returns to the previous menu. From here you can enter a `2` wh
 
 When exiting the menus, you will be prompted with either an ```x``` or ```b```. You can use either character when exiting the menus as well as ```X``` or ```B```. Note that you will need to use either of these keys when making a change in order for the DataLogger IoT to save any changes in memory. Make sure that you receive the following message indicating that the settings were saved: ```[I] Saving System Settings```. The DataLogger IoT will the continue reading the devices and outputting the readings through the serial terminal.
 
+<figure>
 ![Output Save Settings](/img/sfe-datalogger-settings-exit.png)
-/// caption
+<figcaption>
 Save Settings When Exiting the Menu
-///
+</figcaption></figure>
 
 ### Cancelling Changes
 
 You can also use any of your ```Esc``` to exit. However, using the escape will not save any changes in memory once the reset button is hit or whenever power is cycled.
 
+<figure>
 ![Output when Cancelling Changes](/img/sfe-datalogger-settings-escape.png)
-/// caption
+<figcaption>
 Escape to Exit a Menu
-///
+</figcaption></figure>
 
 ### Timeout from Inactivity
 
 The menus will slowly exit out after 2 minutes of inactivity, so if you do not press a key the DataLogger IoT will return to its previous menu. It will continue to move back until it reaches the main menu. After another additional 2 minutes of inactivity, the board will exit begin logging data again. When the menu exits from inactivity, any changes will not be saved in memory as well.
 
+<figure>
 ![output when timing out](/img/sfe-datalogger-settings-auto-esc.png)
-/// caption
+<figcaption>
 Timeout in the Menu
-///
+</figcaption></figure>
 
 ## Quick Commands
 
@@ -189,7 +199,8 @@ The following commands are available:
 
 Typing a quick command and hitting the ```Enter``` button will result in the DataLogger IoT executing the command without the need to go through the menu system. Below is an example showing the `!about` quick command being sent and then executing the command as the DataLogger IoT is outputting CSV values to the serial terminal.
 
+<figure>
 ![Quick Command Entered](/img/sfe-datalogger-quick-cmd.png)
-/// caption
+<figcaption>
 Enter a quick command
-///
+</figcaption></figure>

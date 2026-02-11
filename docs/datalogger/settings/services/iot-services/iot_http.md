@@ -115,8 +115,11 @@ Where:
 
  If the JSON file is saved in the microSD card, you can load the credentials to the DataLogger IoT.
 
-!!! tip
-    To load the values by the system at startup using a JSON file and microSD card, you will need to [configure the Save Settings](../configuration#general-save-settings). This JSON file will be created with the "**Save to Fallback**" option. Make sure to enable the HTTP IoT as well.
+:::tip
+
+To load the values by the system at startup using a JSON file and microSD card, you will need to [configure the Save Settings](../configuration#general-save-settings). This JSON file will be created with the "**Save to Fallback**" option. Make sure to enable the HTTP IoT as well.
+
+:::
 
 ## Example - Connecting to a HTTP Server
 
