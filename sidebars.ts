@@ -157,8 +157,25 @@ const sidebars: SidebarsConfig = {
             },
             collapsed: false,
             items: [
+                'datalogger/resources/prepare_your_microsd_card',
+                'datalogger/resources/ref-serial-terms',
+                'datalogger/resources/resources',          
                 'datalogger/resources/supported_devices',
-                'datalogger/resources/ref-serial-terms'
+                'datalogger/resources/release_notes',
+                'datalogger/resources/suggested-reading'                            
+            ]
+        },
+        {
+            type: 'category',
+            label: 'Support',
+            link: {
+                type: 'generated-index'
+            },
+            collapsed: false,
+            items: [
+                'datalogger/support/troubleshooting',
+                'datalogger/support/file_issue',
+                'datalogger/support/contribute'
             ]
         }
     ]
