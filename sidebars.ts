@@ -40,13 +40,18 @@ const sidebars: SidebarsConfig = {
             type: 'category',
             label: 'Settings',
             link: {
-                type: 'generated-index'
+                type: 'doc',
+                id: 'datalogger/settings/general/gen-app-set'
             },
             collapsed: false,
             items: [
                 {
                     type: 'category',
                     label: 'General',
+                    link:{
+                        type:'doc',
+                        id: 'datalogger/settings/general/gen-app-set'
+                    },
                     collapsed: false,
                     items: [
                         'datalogger/settings/general/gen-app-set',
@@ -60,7 +65,8 @@ const sidebars: SidebarsConfig = {
             type: 'category',
             label: 'Resources',
             link: {
-                type: 'generated-index'
+                type: 'doc',
+                id: 'datalogger/resources/supported_devices'
             },
             collapsed: false,
             items: [
