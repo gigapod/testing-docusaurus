@@ -58,7 +58,7 @@ Where:
 * `mDNS Support` - Set to `true` if multicast DNS is supported. This allows you to enter the address as "`http://dataloggerXXXXX.local`" (where `XXXXX` is generated from the last 5x characters from your board ID) rather than typing the exact IP address of the ESP32.
 * `mDNS Name` - Multicast DNS name. In this case, the default name was set to `dataloggerAD6B8`. This name will be different depending on your DataLogger IoT's board ID so `AD6B8` will be different for your board.
 
-> To load the values by the system at startup using a JSON file and microSD card, you will need to [configure the Save Settings](datalogger/settings/general/gen-save-settings.md). This JSON file will be created with the "**Save to Fallback**" option. Make sure to enable the MQTT Client as well.
+> To load the values by the system at startup using a JSON file and microSD card, you will need to [configure the Save Settings](settings/general/gen-save-settings.md). This JSON file will be created with the "**Save to Fallback**" option. Make sure to enable the MQTT Client as well.
 
 ## Connect and Download Log File
 
