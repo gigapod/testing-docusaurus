@@ -43,7 +43,7 @@ const config: Config = {
                 docs: {
                     sidebarPath: './sidebars.ts',
                     // Please change this to your repo.
-                    routeBasePath: '/testing-docusaurus/',
+                    routeBasePath: '/testing-docusaurus',
                 },
                 blog: false,
                 theme: {
