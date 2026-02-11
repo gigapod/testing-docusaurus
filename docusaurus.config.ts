@@ -43,6 +43,7 @@ const config: Config = {
                 docs: {
                     sidebarPath: './sidebars.ts',
                     // Please change this to your repo.
+                    routeBasePath: '/',
                 },
                 blog: false,
                 theme: {
@@ -86,7 +87,7 @@ const config: Config = {
                     items: [
                         {
                             label: 'Documentation',
-                            to: '/docs/datalogger/introduction',
+                            to: '/docs/introduction',
                         },
                     ],
                 },

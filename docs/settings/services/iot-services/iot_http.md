@@ -117,7 +117,7 @@ Where:
 
 :::tip
 
-To load the values by the system at startup using a JSON file and microSD card, you will need to [configure the Save Settings](datalogger/settings/general/gen-save-settings.md). This JSON file will be created with the "**Save to Fallback**" option. Make sure to enable the HTTP IoT as well.
+To load the values by the system at startup using a JSON file and microSD card, you will need to [configure the Save Settings](settings/general/gen-save-settings.md). This JSON file will be created with the "**Save to Fallback**" option. Make sure to enable the HTTP IoT as well.
 
 :::
 

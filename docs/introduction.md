@@ -1,13 +1,15 @@
-
+---
+slug: /
+---
 # Introduction
 
 ![SparkFun DataLogger IoT](/img/gh-banner-hug-datalogger.png)
 
-The SparkFun DataLogger IoT is a data logger that comes preprogrammed and ready to use immediately - no programming, no setup - just plug in the board, add a [supported qwiic sensor or two](datalogger/resources/supported_devices.md) and start logging data. The built-in firmware automatically detects attached qwiic sensors, peforms any setup and starts logging sensor data. And with minimal configuration, the DataLogger IoT can connect to a local WiFi network and post data to a wide range of IoT data services.
+The SparkFun DataLogger IoT is a data logger that comes preprogrammed and ready to use immediately - no programming, no setup - just plug in the board, add a [supported qwiic sensor or two](resources/supported_devices.md) and start logging data. The built-in firmware automatically detects attached qwiic sensors, peforms any setup and starts logging sensor data. And with minimal configuration, the DataLogger IoT can connect to a local WiFi network and post data to a wide range of IoT data services.
 
 The DataLogger IoT automatically detects, configures, and logs Qwiic sensors. It was specifically designed for users who just need to capture a lot of data with minimal setup or development. It delivers a ready-to-use device that enables saving data to a microSD card, output it to a serial console andor send it wirelessly to your preferred Internet of Things (IoT) services - all at that same time!
 
-To configure the DataLogger, a menu system is accessed via a serial connection and provides access to all available settings for the system. Changes are automatically saved in persistant storage on the device, and are also settable/accessable as a `json` file if desired.  Details on setting up the system are outlined in the [Settings](datalogger/settings/general/gen-app-set.md) section of this manual.
+To configure the DataLogger, a menu system is accessed via a serial connection and provides access to all available settings for the system. Changes are automatically saved in persistant storage on the device, and are also settable/accessable as a `json` file if desired.  Details on setting up the system are outlined in the [Settings](settings/general/gen-app-set.md) section of this manual.
 
 ## DataLogger Devices
 
@@ -28,16 +30,16 @@ For general use and for following the documentation provided, the following item
 * [microSD card formatted with FAT32 [COM-15107]](https://www.sparkfun.com/products/15107)
 * [USB C Cable](https://www.sparkfun.com/usb-c-to-usb-c-cable-1-meter-flexible-silicone.html) for communication and power
 * A [qwiic Cable](https://www.sparkfun.com/products/14426)
-* At least one [Qwiic enabled devices that is compatible](datalogger/resources/supported_devices.md)
+* At least one [Qwiic enabled devices that is compatible](resources/supported_devices.md)
 * For battery powered operation, a [Lithium Ion Battery](https://www.sparkfun.com/products/18286)
 
 ### Basic Hardware Setup
 
 The simple hardware setup is as follows:
 
-* Connect a [supported](datalogger/resources/supported_devices.md) qwiic sensor to the datalogger.
+* Connect a [supported](resources/supported_devices.md) qwiic sensor to the datalogger.
 * Connect the datalogger to a computer using a usb-c cable
-* Connected to the datalogger via a [Serial Terminal](datalogger/resources/ref-serial-terms.md)
+* Connected to the datalogger via a [Serial Terminal](resources/ref-serial-terms.md)
 
 ### Basic Configuration Setup
 

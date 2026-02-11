@@ -34,10 +34,10 @@ import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
     tutorialSidebar: [
-        'datalogger/introduction',
-        'datalogger/hardware_overview',
-        'datalogger/hardware_hookup',
-        'datalogger/system-operation',
+        'introduction',
+        'hardware_overview',
+        'hardware_hookup',
+        'system-operation',
         {
             type: 'category',
             label: 'Settings',
@@ -54,9 +54,9 @@ const sidebars: SidebarsConfig = {
                     },
                     collapsed: false,
                     items: [
-                        'datalogger/settings/general/gen-app-set',
-                        'datalogger/settings/general/gen-time-setup',
-                        'datalogger/settings/general/gen-save-settings'
+                        'settings/general/gen-app-set',
+                        'settings/general/gen-time-setup',
+                        'settings/general/gen-save-settings'
                     ]
                 },
                 {
@@ -67,8 +67,8 @@ const sidebars: SidebarsConfig = {
                     },
                     collapsed: false,
                     items: [
-                        'datalogger/settings/network/net-wifi-setup',
-                        'datalogger/settings/network/net-ntp-setup'
+                        'settings/network/net-wifi-setup',
+                        'settings/network/net-ntp-setup'
                     ]
                 },
                 {
@@ -79,10 +79,10 @@ const sidebars: SidebarsConfig = {
                     },
                     collapsed: false,
                     items: [
-                        'datalogger/settings/logging/log-settings-logger',
-                        'datalogger/settings/logging/log-settings-timer',
-                        'datalogger/settings/logging/log-settings-file',
-                        'datalogger/settings/logging/log-settings-interrupt',
+                        'settings/logging/log-settings-logger',
+                        'settings/logging/log-settings-timer',
+                        'settings/logging/log-settings-file',
+                        'settings/logging/log-settings-interrupt',
                     ]
                 },
                 {
@@ -93,9 +93,9 @@ const sidebars: SidebarsConfig = {
                     },
                     collapsed: false,
                     items: [
-                        'datalogger/settings/gpio-devices/gpio-extern-serial',
-                        'datalogger/settings/gpio-devices/gpio-soil-moisture',
-                        'datalogger/settings/gpio-devices/gpio-analog-pin-sensor'
+                        'settings/gpio-devices/gpio-extern-serial',
+                        'settings/gpio-devices/gpio-soil-moisture',
+                        'settings/gpio-devices/gpio-analog-pin-sensor'
                     ]
                 },
                 {
@@ -114,15 +114,15 @@ const sidebars: SidebarsConfig = {
                             },
                             collapsed: false,
                             items: [
-                                'datalogger/settings/services/iot-services/iot_mqtt',
-                                'datalogger/settings/services/iot-services/iot_aws',
-                                'datalogger/settings/services/iot-services/iot_thingspeak',
-                                'datalogger/settings/services/iot-services/iot_azure',
-                                'datalogger/settings/services/iot-services/iot_http',
-                                'datalogger/settings/services/iot-services/iot_arduino_iot_cloud'
+                                'settings/services/iot-services/iot_mqtt',
+                                'settings/services/iot-services/iot_aws',
+                                'settings/services/iot-services/iot_thingspeak',
+                                'settings/services/iot-services/iot_azure',
+                                'settings/services/iot-services/iot_http',
+                                'settings/services/iot-services/iot_arduino_iot_cloud'
                             ]
                         },
-                        "datalogger/settings/services/iot_web_server"
+                        "settings/services/iot_web_server"
                     ]
                 },
                 {
@@ -133,7 +133,7 @@ const sidebars: SidebarsConfig = {
                     },
                     collapsed: false,
                     items: [
-                        'datalogger/settings/advanced/adv-system-update'
+                        'settings/advanced/adv-system-update'
                     ]
                 }
             ]
@@ -146,7 +146,7 @@ const sidebars: SidebarsConfig = {
             },
             collapsed: false,
             items: [
-                'datalogger/device-settings/gnss-pps-log'
+                'device-settings/gnss-pps-log'
             ]
         },
         {
@@ -157,12 +157,12 @@ const sidebars: SidebarsConfig = {
             },
             collapsed: true,
             items: [
-                'datalogger/resources/prepare_your_microsd_card',
-                'datalogger/resources/ref-serial-terms',
-                'datalogger/resources/resources',          
-                'datalogger/resources/supported_devices',
-                'datalogger/resources/release_notes',
-                'datalogger/resources/suggested-reading'                            
+                'resources/prepare_your_microsd_card',
+                'resources/ref-serial-terms',
+                'resources/resources',          
+                'resources/supported_devices',
+                'resources/release_notes',
+                'resources/suggested-reading'                            
             ]
         },
         {
@@ -173,9 +173,9 @@ const sidebars: SidebarsConfig = {
             },
             collapsed: true,
             items: [
-                'datalogger/support/troubleshooting',
-                'datalogger/support/file_issue',
-                'datalogger/support/contribute'
+                'support/troubleshooting',
+                'support/file_issue',
+                'support/contribute'
             ]
         }
     ]

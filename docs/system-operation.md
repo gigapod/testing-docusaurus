@@ -3,7 +3,7 @@
 
 The main interface for the DataLogger IoT is a menuing system accessed via a serial terminal. You can use any interactive serial terminal emulator to quickly and easily change and store the DataLoggerIoT settings via its USB-C interface.
 
-Before proceeding - ensure you are using an appropriate [Serial Terminal application](datalogger/resources/ref-serial-terms.md) to communicate with the DataLoggerIoT.
+Before proceeding - ensure you are using an appropriate [Serial Terminal application](resources/ref-serial-terms.md) to communicate with the DataLoggerIoT.
 
 ## General Operation
 

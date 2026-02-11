@@ -130,7 +130,7 @@ The **Channels** value is a list of **[DEVICE NAME]=[Channel ID]** pairs. Each p
 
 Besides updating the `Server`, `Client Name`, `Username`, `Password`, `CA Cert Filename`, and `Channels`, you will need to also ensure that the `port` is set to `8883`. The default in previous firmware versions was `1883`. As of firmware v01.00.04, the default is `8883`. You will need to adjust the port value to properly connect to the ThingSpeak service. Don't forget to enable ThingSpeak MQTT service by setting the value to `true`. If the JSON file is saved in the microSD card, you can load the credentials to the DataLogger IoT.
 
-To load the values by the system at startup using a JSON file and microSD card, you will need to [configure the Save Settings](datalogger/settings/general/gen-save-settings.md). This JSON file will be created with the "**Save to Fallback**" option. Make sure to enable the ThingSpeak MQTT as well.
+To load the values by the system at startup using a JSON file and microSD card, you will need to [configure the Save Settings](settings/general/gen-save-settings.md). This JSON file will be created with the "**Save to Fallback**" option. Make sure to enable the ThingSpeak MQTT as well.
 
 ## Monitoring Output
 
