@@ -69,7 +69,21 @@ const sidebars: SidebarsConfig = {
                         'datalogger/settings/network/net-wifi-setup',
                         'datalogger/settings/network/net-ntp-setup'
                     ]
-                }
+                },
+        {
+            type: 'category',
+            label: 'Logging',
+            link: {
+                type: 'generated-index'
+            },
+            collapsed: false,
+            items: [
+                'datalogger/settings/logging/log-settings-logger',
+                'datalogger/settings/logging/log-settings-timer',
+                'datalogger/settings/logging/log-settings-file',
+                'datalogger/settings/logging/log-settings-interrupt',
+            ]
+        }
             ]
         },
         {
