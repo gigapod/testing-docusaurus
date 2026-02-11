@@ -1,8 +1,0 @@
-{
-    "label": "DataLogger IoT",
-    "position": 4,
-    "link": {
-        "type": "generated-index",
-        "description": "Test of porting datalogger documentations over ."
-    }
-}
