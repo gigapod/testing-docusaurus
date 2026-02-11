@@ -25,7 +25,7 @@ The actual IoT device communicates with it's AWS representation via a secure MQT
 
 ## Creating a Device in AWS IoT
 
-The following discussion outlines the basic steps taken to create a Thing in AWS IoT that the DataLogger IoT can connect to. First step is to [log into]("https://aws.amazon.com/iot-core/) your AWS account and create a thing.
+The following discussion outlines the basic steps taken to create a Thing in AWS IoT that the DataLogger IoT can connect to. First step is to [log into](https://aws.amazon.com/iot-core/) your AWS account and create a thing.
 
 Once logged into your AWS account, select **IoT Core** from the menu of services.
 ![AWS IoT Core](/img/iot_aws_iot_core.png)
