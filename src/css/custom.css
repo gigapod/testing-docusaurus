@@ -51,6 +51,7 @@
     --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 */
-.alert--secondary {
-    --ifm-alert-background-color: rgba(235, 237, 240, 0.0)
+
+html[data-theme='dark'] footer {
+  background-color: black;
 }
