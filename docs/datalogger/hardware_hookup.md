@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Hardware - Hookup
+# Hardware Hookup
 
 In this section, we will go over how to connect to the SparkFun DataLogger IoT. At the time of writing, we used the DataLogger IoT - 9DoF. This hardware hookup explained in this section also applies for the DataLogger IoT.
 
@@ -57,8 +57,11 @@ Now is a good time to attach a LiPo battery, if you want the DataLogger IoT to k
 
 You can connect one of our standard single cell LiPo batteries to the DataLogger IoT and power it for hours, days or weeks depending on what sensors you have attached and how often you log data. The DataLogger IoT has a built-in charger too which will charge your battery at **500mA** when USB-C is connected. Please make sure your battery capacity is at least 500mAh (0.5Ah); bad things will happen if you try to charge our smallest batteries at 500mA. The yellow CHG charging LED will light up while the battery is charging and will go out once charging is complete.
 
-!!! warning
-    Ensure that you use one of SparkFun's recommended Lithium Ion batteries. Some batteries use the same JST connector as SparkFun, but have the opposite polarity. Connecting one of these to your DataLogger IoT will destroy it. If using a non-SparkFun battery,  ensure it has the correct polarity.
+:::warning
+    
+Ensure that you use one of SparkFun's recommended Lithium Ion batteries. Some batteries use the same JST connector as SparkFun, but have the opposite polarity. Connecting one of these to your DataLogger IoT will destroy it. If using a non-SparkFun battery,  ensure it has the correct polarity.
+
+:::
 
 The MCP73831 charge IC on the board is used on a few SparkFun products. For more information about the CHG status LED, we recommend taking look at the Hardware Overview. We also recommend taking a look at this tutorial for [Single Cell LiPo Battery Care](https://learn.sparkfun.com/tutorials/single-cell-lipo-battery-care).
 

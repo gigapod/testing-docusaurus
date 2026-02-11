@@ -11,9 +11,9 @@ In the Save Settings Menu, users will be able to save, restore, or clear any pre
 When this item is selected, the following menu is presented.
 
 ![save settings menu](/img/sfe-datalogger-set-save-settings.png)
-/// caption
-Save Settings  Menu
-///
+<figure>
+<figcaption>Save Settings Menu</figcaption>
+</figure>
 
 ## Settings
 

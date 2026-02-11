@@ -70,5 +70,8 @@ Once attached, you will be prompted with additional options to select a primary 
 <figcaption>Clock Sources</figcaption>
 </figure>
 
-!!! note
-    If you are using a u-blox GNSS module, make sure that you have enough satellites in view. The option to add or configure the GNSS will not be available if there are not enough satellites in view. If you are using the Qwiic Real Time Clock Module - RV-8803, you may need to go into the device settings to manually adjust the date and time.
+:::note
+
+If you are using a u-blox GNSS module, make sure that you have enough satellites in view. The option to add or configure the GNSS will not be available if there are not enough satellites in view. If you are using the Qwiic Real Time Clock Module - RV-8803, you may need to go into the device settings to manually adjust the date and time.
+
+:::

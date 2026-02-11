@@ -46,8 +46,11 @@ When building JSON output, a string buffer is allocated and used. This setting i
 
 If the buffer size is exceeded, a non-valid JSON value is output by the system.
 
-!!! note
-    The runtime maximum use size of the buffer is output in the `about` screen of the DataLoggerIoT. This is helpful in adjusting the size of the buffer.
+:::note
+
+The runtime maximum use size of the buffer is output in the `about` screen of the DataLoggerIoT. This is helpful in adjusting the size of the buffer.
+
+:::
 
 ### Terminal Baud Rate
 
@@ -55,8 +58,11 @@ The baud rate used when connected to a Serial Terminal application.
 
 When changed, the DataLoggerIoT must restart of the setting to take effect.
 
-!!! note
-    Once the baud rate is change, the baudrate on the serial termainal application will also require updating
+:::note
+
+Once the baud rate is change, the baudrate on the serial termainal application will also require updating
+
+:::
 
 ## Sleep
 

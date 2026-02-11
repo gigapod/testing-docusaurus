@@ -53,11 +53,16 @@ To exit a menu perform on of the following:
 * At the main menu, press `x` to exit (`b` works also). Any changes to settings are saved to on-board storage
 * Press the `Escape` key (esc) to return to the previous menu item. If at the main menu, any changes **are not** save to on-board storage.
 
-!!! note
-    If you don't exit a menu, after a timeout period (60 seconds default), the menu will exit as if the `escape` key was pressed.
+:::note
+If you don't exit a menu, after a timeout period (60 seconds default), the menu will exit as if the `escape` key was pressed.
 
-!!! warning
-    If you make configuration changes, but don't exit the menu to save the changes, the changes will not be saved to on-device storage.
+:::
+
+:::warning
+
+If you make configuration changes, but don't exit the menu to save the changes, the changes will not be saved to on-device storage.
+
+:::
 
 Once menu navigation is understood, explore the options available and make changes to meet your needs. The configuration options are detailed in a majority of this on-line guide.
 
