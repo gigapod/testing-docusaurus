@@ -81,6 +81,11 @@ const config: Config = {
         },
         footer: {
             style: 'dark',
+            logo:{
+                alt: 'SparkFun Electronics',
+                src: 'img/sfe_flame.png',
+                href: 'https://www.sparkfun.com/'
+            },
             links: [
                 {
                     title: 'DataLogger IoT Boards',
