@@ -52,18 +52,7 @@ const config: Config = {
             } satisfies Preset.Options,
         ],
     ],
-    plugins: [
-         [
-      'docusaurus-plugin-cookie-consent',
-      {
-        title: 'Cookie Consent',
-        description: 'We use cookies to improve our services, make personal offers, and enhance your experience.',
-        links: [
-          { label: 'CookiePolicy', href: 'https://www.sparkfun.com/privacy' },
-        ],
-      },
-    ],
-    ],
+
     themeConfig: {
         // Replace with your project's social card
         image: 'img/docusaurus-social-card.jpg',
@@ -147,7 +136,6 @@ const config: Config = {
             theme: prismThemes.github,
             darkTheme: prismThemes.dracula,
         },
-
     } satisfies Preset.ThemeConfig,
 };
 
