@@ -86,8 +86,7 @@ const config: Config = {
                     href: 'https://www.sparkfun.com',
                     position: 'right',
                     className: 'header-sparkfun-link',
-                    'aria-label': 'SparkFun website',
-                    alt: 'SparkFun Electronics Website'
+                    'aria-label': 'SparkFun website'
                 }
             ],
         },

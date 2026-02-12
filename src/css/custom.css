@@ -103,5 +103,5 @@ html[data-theme='dark'] footer {
 }
 
 .header-sparkfun-link:hover::before {
-  background-color: var(--ifm-navbar-link-hover-color);
+  background-color: #FF0000;
 }
