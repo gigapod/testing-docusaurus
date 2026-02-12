@@ -65,7 +65,7 @@ const sidebars: SidebarsConfig = {
                     link: {
                         type: 'generated-index'
                     },
-                    collapsed: false,
+                    collapsed: true,
                     items: [
                         'settings/network/net-wifi-setup',
                         'settings/network/net-ntp-setup'
@@ -77,7 +77,7 @@ const sidebars: SidebarsConfig = {
                     link: {
                         type: 'generated-index'
                     },
-                    collapsed: false,
+                    collapsed: true,
                     items: [
                         'settings/logging/log-settings-logger',
                         'settings/logging/log-settings-timer',
@@ -91,7 +91,7 @@ const sidebars: SidebarsConfig = {
                     link: {
                         type: 'generated-index'
                     },
-                    collapsed: false,
+                    collapsed: true,
                     items: [
                         'settings/gpio-devices/gpio-extern-serial',
                         'settings/gpio-devices/gpio-soil-moisture',
@@ -112,7 +112,7 @@ const sidebars: SidebarsConfig = {
                             link: {
                                 type: 'generated-index'
                             },
-                            collapsed: false,
+                            collapsed: true,
                             items: [
                                 'settings/services/iot-services/iot_mqtt',
                                 'settings/services/iot-services/iot_aws',
@@ -131,7 +131,7 @@ const sidebars: SidebarsConfig = {
                     link: {
                         type: 'generated-index'
                     },
-                    collapsed: false,
+                    collapsed: true,
                     items: [
                         'settings/advanced/adv-system-update'
                     ]
@@ -144,7 +144,7 @@ const sidebars: SidebarsConfig = {
             link: {
                 type: 'generated-index'
             },
-            collapsed: false,
+            collapsed: true,
             items: [
                 'device-settings/gnss-pps-log'
             ]
