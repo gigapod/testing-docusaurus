@@ -78,9 +78,15 @@ const config: Config = {
                 // },
                 {
                     href: 'https://github.com/sparkfun/SparkFun_DataLogger',
-                    label: 'GitHub',
                     position: 'right',
+                    className: 'header-github-link',
+                    'aria-label': 'GitHub repository',
                 },
+                {
+                    href: 'https://www.sparkfun.com',
+                    label: 'SparkFun.com',
+                    position: 'right',
+                }
             ],
         },
         footer: {
