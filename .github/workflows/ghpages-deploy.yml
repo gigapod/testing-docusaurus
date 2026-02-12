@@ -24,8 +24,10 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
       - name: Install other plugin packages
-        run: npm install docusaurus-plugin-cookie-consent
+        run: npm install --force docusaurus-plugin-cookie-consent
+
       - name: Build website
         run: npm run build
 
