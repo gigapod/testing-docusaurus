@@ -84,8 +84,9 @@ const config: Config = {
                 },
                 {
                     href: 'https://www.sparkfun.com',
-                    label: 'SparkFun.com',
                     position: 'right',
+                    className: 'header-sparkfun-link',
+                    'aria-label': 'SparkFun website',
                 }
             ],
         },

@@ -89,3 +89,19 @@ html[data-theme='dark'] footer {
 .header-github-link:hover::before {
   background-color: var(--ifm-navbar-link-hover-color);
 }
+
+
+.header-sparkfun-link::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background-color: var(--ifm-navbar-link-color);
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 276.7516 18.7051 C 278.0146 24.0331 273.9916 24.7741 273.9916 24.7741 C 271.1906 25.2691 266.6736 22.4941 264.3986 19.7251 C 261.5976 16.3101 261.9516 13.6241 264.1306 11.2391 C 267.4046 7.6181 273.0096 9.0171 273.0096 9.0171 C 262.7406 .0081 252.0466 7.3911 252.0466 7.3911 C 242.5206 13.9471 245.2546 22.8861 253.8506 30.6851 C 261.5976 37.7341 255.4096 45.4631 247.6056 44.4591 C 242.2556 43.7771 240.0666 39.4841 241.3516 36.8491 C 242.4586 34.5951 246.2986 33.2091 246.2986 33.2091 C 241.8876 31.4161 236.6956 33.3711 236.6956 33.3711 C 232.0316 35.1291 228.1866 38.9841 228.4936 48.6401 L 228.4936 93.4061 C 233.3146 87.4621 238.9816 81.4171 238.9816 81.4171 C 245.3276 74.5981 248.2236 69.9901 254.7406 70.5291 C 267.0716 71.2921 275.9886 65.8141 282.0506 57.0241 C 293.6886 40.1191 284.5726 21.2311 276.7516 18.7051 Z'/%3E%3C/svg%3E");
+  transition: background-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
+.header-sparkfun-link:hover::before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
