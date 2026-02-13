@@ -61,7 +61,9 @@ const config: Config = {
         },
         announcementBar: {
         id: `announcementBar-v1.5.0.beta1`, // Increment on new announcement
-        content: `🎉️ <b><a target="_blank" href="https://github.com/sparkfun/SparkFun_DataLogger/releases/tag/v01.05.00-beta1">DataLogger v1.5.0 Beta</a> is out for testing!</b> 🥳️`,
+        textColor: '#fff',
+        backgroundColor: '#25444a',
+        content: `<b><a target="_blank" href="https://github.com/sparkfun/SparkFun_DataLogger/releases/tag/v01.05.00-beta1">DataLogger v1.5.0 Beta</a> is out for testing!</b>`,
       },
         navbar: {
             title: 'DataLogger IoT Documentation',

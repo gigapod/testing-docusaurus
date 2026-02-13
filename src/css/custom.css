@@ -57,7 +57,7 @@ html[data-theme='dark'] footer {
 }
 
 /* from the docusaurus demo site */
-.theme-announcement-bar {
+/* .theme-announcement-bar {
   font-size: 20px;
 
 
@@ -73,8 +73,11 @@ html[data-theme='dark'] footer {
     var(--site-announcement-bar-stripe-color2) 40px
   );
   font-weight: bold;
-}
-
+} */
+.theme-announcement-bar {
+  font-size: 20px;
+  font-weight: bold;
+} 
 .header-github-link::before {
   content: '';
   width: 24px;
